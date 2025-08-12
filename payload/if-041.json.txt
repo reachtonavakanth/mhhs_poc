@@ -1,0 +1,46 @@
+{
+  "CommonBlock" : {
+    "M0" : {
+      "MPANCore" : "1234567891",
+      "distributorDIPID" : "2500000002",
+      "gspGroupID" : "_N"
+    },
+    "S0" : {
+      "interfaceID" : "IF-041",
+      "schemaVersion" : "011",
+      "eventCode" : [ "ReadingCos" ]
+    },
+    "S1" : {
+      "environmentTag" : "DEV",
+      "subText" : null,
+      "senderUniqueReference" : "S-IF-041-22000000002-REGS-20250811-6985E",
+      "senderTimestamp" : "2025-08-11T11:15:30+01:00",
+      "senderDIPID" : "22000000002",
+      "senderRoleID" : "REGS",
+      "senderCorrelationID" : "CI-20250811-E8F8D30842F34CD5",
+      "DIPConnectionProviderID" : "1046217565"
+    },
+    "A0" : {
+      "primaryRecipients" : [ "140000003" ],
+      "secondaryRecipients" : [ ],
+      "always" : [ ]
+    },
+    "D0" : {
+      "transactionID" : "T-IF-041-22000000002-REGS-20250811-568DECECF1F64EF4",
+      "transactionTimestamp" : "2025-08-11T11:15:30+01:00",
+      "publicationID" : "IF-041",
+      "initialCorrelationID" : "CI-20250811-E8F8D30842F34CD5",
+      "replayIndicator" : false,
+      "serviceTicketURL" : null
+    }
+  },
+  "CustomBlock" : {
+    "B064List" : [ {
+      "meterID" : "M1234568",
+      "cumulativeRegisterReading" : "1000",
+      "cumulativeRegisterReadingDateTime" : "24-07-2025",
+      "readingMethod" : "A",
+      "siteVisitCheckCode" : "01"
+    } ]
+  }
+}
