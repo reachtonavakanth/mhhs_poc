@@ -1,0 +1,20 @@
+{
+  "test02": {
+    "sdsDipId": "140000003",
+    "distributorDipID": "2500000002",
+    "schemaversion": "011",
+    "environmentTag": "DEV",
+    "senderDipId": "22000000002",
+    "dipConnectionProviderID": "1046217565",
+    "baseUrl": "https://501d84b1-d6e9-4c0f-a6bf-68f2e510b2f2.mock.pstmn.io/"
+  },
+  "test05": {
+    "sdsDipId": "140000003",
+    "distributorDipID": "2500000002",
+    "schemaversion": "011",
+    "environmentTag": "SIT",
+    "senderDipId": "22000000002",
+    "dipConnectionProviderID": "1046217565",
+    "baseUrl": "https://501d84b1-d6e9-4c0f-a6bf-68f2e510b2f2.mock.pstmn.io/"
+  }
+}

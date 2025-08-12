@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+    <test name="MHHS_POC">
+        <groups>
+            <run>
+                <include name="sanity"/>
+                <include name="consumption"/>
+            </run>
+        </groups>
+        <listeners>
+            <listener class-name="listners.TestListeners"/>
+        </listeners>
+        <classes>
+            <class name="tests.inbound.if_041.ReadingCosTest"/>
+            <class name="tests.inbound.if_041.ReadingOnsiteTest"/>
+            <class name="tests.outbound.if_041.ReadingDSEstimateTest"/>
+        </classes>
+    </test>
+</suite>
